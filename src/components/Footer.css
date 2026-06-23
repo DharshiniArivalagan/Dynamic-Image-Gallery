@@ -1,0 +1,47 @@
+/* ============================================
+   Footer Styles
+   ============================================ */
+
+.footer {
+  width: 100%;
+  padding: 40px 24px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.footer__content {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.footer__text {
+  margin: 0 0 6px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: rgba(200, 200, 220, 0.45);
+}
+
+.footer__heart {
+  color: #ef4444;
+  display: inline-block;
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.footer__highlight {
+  color: #8b5cf6;
+  font-weight: 500;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: rgba(200, 200, 220, 0.25);
+}
